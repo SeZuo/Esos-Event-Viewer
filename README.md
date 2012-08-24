@@ -1,5 +1,5 @@
-ESOS Event Viewer REAMDE
-========================
+ESOS Event Viewer
+=================
 © Copyright 2010 Sebastien Zurfluh <www.sebastienzurfluh.ch>
 
 
@@ -12,6 +12,8 @@ This project was developed for ESOS (trainingsourcesite.com), contracted by
 SUMARIA Networks to create a resource management utility.
 It was never used commercially.
 
+Showcase: http://www.sebastienzurfluh.ch/archive/2010/esos/ESOS_Event_Viewer.html
+
 A propos:
 =========
 
@@ -22,6 +24,8 @@ de vue.
 Ce projet a éte dévelopé pour ESOS (trainingsourcesite.com), employé par
 SUMARIA Networks pour créer un utilitaire de gestion de ressources.
 Il n'a jamais été utilisé commercialement.
+
+Aperçu: http://www.sebastienzurfluh.ch/archive/2010/esos/ESOS_Event_Viewer.html
 
 
 Prerequisites:
