@@ -28,12 +28,12 @@ Il n'a jamais été utilisé commercialement.
 Aperçu: http://www.sebastienzurfluh.ch/archive/2010/esos/ESOS_Event_Viewer.html
 
 
-Prerequisites:
-==============
+Prerequisites / Prérequis:
+==========================
  + GWT 2.1
  + junit 4.8.2
  + gwttime alpha [http://code.google.com/p/gwt-time/]
- + gwt 2.1.1
+ + gxt 2.1.1
  + gwt-dnd 3.0.1
  + gwt-incubator 20101117-r1766
 
@@ -41,9 +41,13 @@ Running:
 ========
 This is a normal GWT project. You may import it in eclipse, all needed configuration files are provided.
 
-
-Thanks:
+Lancer:
 =======
-To the guy who made gwt-time (Scott Fines)! His work helped me a lot.
-To the gwt and gxt teams, for their great work.
+Rien de spécial, j'ai inclus les fichiers de configuration nécessaires pour éclipse.
+
+
+Thanks / Remerciements:
+=======================
+ + To the guy who made gwt-time (Scott Fines)! His work helped me a lot.
+ + To the gwt and gxt teams, for their great work.
  
