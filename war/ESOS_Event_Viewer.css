@@ -1,0 +1,276 @@
+/*
+ * Copyright 2010 Sebastien Zurfluh
+ * 
+ * This file is part of "ESOS Event Viewer".
+ * 
+ * "ESOS Event Viewer" is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * "ESOS Event Viewer" is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ *  You should have received a copy of the GNU General Public License
+ *  along with "ESOS Event Viewer".  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+ 
+ /* z-index list
+ *
+ * 5 labels and lines
+ * 7 events
+ *
+ */
+
+
+/** Global Layout  */
+.outerbound {
+	/*
+	width:100px;
+	border: 1px dashed #99AACC;
+	padding: 0px;
+	*/
+	padding: 5px;
+}
+
+.boundarypanel {
+	border: 1px solid black;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-ms-overflow-y: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+/** Styles for dnd */
+.dragdrop-dropTarget-engage {
+	background-color: #E0E8FF;
+}
+.moveImg {
+	margin: 2px 2px 0px 5px;	
+}
+
+/** Misc. */
+.zoomAndPrecisionLabel {
+	font-family: verdana;
+	font-size: 12px;
+	font-variant:small-caps;
+	margin-top: 3px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+
+.time-line {
+	border-width: 1px 1px 0px 0px;
+	border-color: #000;
+	border-style: solid;
+	background-image: url(resources/images/mine/bg_eventviewer.gif);
+	background-size: 100px;
+	z-index:3;
+}
+
+.vertical-line {
+	height: 100%;
+	width: 1px;
+	position: absolute;
+	top: 0;
+	z-index:5;
+}
+
+.timeDatePickerTimePanel {
+	width:100%; overflow: hidden; padding: 1px 0px 0px 5px; border-top: 1px solid blue;
+}
+
+/*  TODO change to locationgrid-horizontalLine or something else */
+.horizontal-line {
+	height: 1px;
+	position: absolute;
+	left: 0;
+	z-index:5;
+}
+
+.locationgrid-text {
+	font-family: verdana;
+	font-size: 16px;
+	color: #CCCCCC; 
+	position: absolute;
+	top: 15px;
+	left: 3;
+	z-index:5;
+}
+
+.timeDatePickerText {
+	font-family: verdana;
+	font-size: 10px; 
+}
+.timeDatePickerText-separator {
+	cursor: default;
+	font-family: verdana;
+	font-size: 10px;
+	margin-top:2px;
+}
+.timeDatePickerText-btn {
+	cursor: pointer;
+	font-family: verdana;
+	font-size: 10px;
+	margin-top:2px;
+}
+
+.timeSpaceRuler {
+	position: relative;
+	overflow:visible;
+}
+
+.timeSpaceRulerLabel {
+	cursor: default;
+	font-family: verdana;
+	font-size: 10px; 
+	overflow:hidden;
+	padding: 1px;
+}
+
+.timeSpaceRulerLabel-controlable {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.timeSpaceRulerLabel-border {
+	padding: 0px;
+	border: 1px solid black;
+}
+
+.timeSpaceRulerLine {
+	width:1px;
+	position: relative;
+	top: 0;
+	z-index:10;
+}
+
+.cellInterval {
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.sideButtons {
+	margin-top:2;	
+}
+
+/** Styles for events */
+.eventLabel {
+	overflow: hidden;
+	font-size: 12;
+	font-family:Verdana;
+	white-space:nowrap
+}
+.event {
+	/* this is only an indication as
+	 * the z-index value has to be set after render
+	 */
+	z-index:7;
+	overflow:hidden;   
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.event-glossy {
+	z-index:7;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url(resources/images/mine/glossy.gif);
+}
+
+.event-glossy-blue {
+	z-index:7; 
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url(resources/images/mine/glossy_blue.gif);
+}
+
+.event-glossy-green {
+	z-index:7;
+	overflow: hidden;   
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url(resources/images/mine/glossy_green.gif);
+}
+
+.event-glossy-lime {
+	z-index:7;
+	overflow: hidden;   
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url(resources/images/mine/glossy_lime.gif);
+}
+
+.event-glossy-violet {
+	z-index:7;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-image: url(resources/images/mine/glossy_violet.gif);
+}
+
+.event-glass {
+	z-index:7;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0x 0px 2px;
+	border: 1px solid #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.event-red {
+	background-color: #FFCCCC;
+}
+
+.event-blue {
+	background-color: #CCCCFF;
+}
+
+.event-green {
+	background-color: #CCFFCC;
+}
+
+.event-yellow {
+	background-color: #FAEFCF;
+}

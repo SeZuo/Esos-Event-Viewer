@@ -1,0 +1,21 @@
+<initialisation>
+		<timeline>
+			<interval_pixels>25</interval_pixels>
+			<interval_minutes>240</interval_minutes>
+			<line_height>25</line_height>
+			<!--Oddly named DEFAULT_LOCATIONS_HEIGHT in the initial Config.java -->
+			<line_number>1</line_number>
+			<day_range>7</day_range></timeline>
+</initialisation>
+<general>
+	<div_container_id>
+	<!--The id of the application's container-->
+		zion
+	</div_container_id>
+	<boundary>
+	<!--Width of the box bounding the drag and drop functions
+Set a value of -1 for automatic-->
+	<width>-1</width>
+	</boundary>
+	
+</general>
