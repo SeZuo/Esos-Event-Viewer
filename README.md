@@ -19,7 +19,7 @@ This program is covered by the GPLv3 licence.
 
 Screenshot:
 ===========
-![Screenshot](screenshot.png, "Screenshot")
+![Screenshot](blob/master/screenshot.png, "Screenshot")
 
 About:
 ====== 
