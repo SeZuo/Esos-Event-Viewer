@@ -17,6 +17,9 @@ This program is covered by the GPLv3 licence.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+Screenshot:
+===========
+[[screenshot.png]]
 
 About:
 ====== 
