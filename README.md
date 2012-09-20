@@ -17,10 +17,6 @@ This program is covered by the GPLv3 licence.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Screenshot:
-===========
-![Screenshot](blob/master/screenshot.png, "Screenshot")
-
 About:
 ====== 
 The goal of this module is to manage calendar events; in detail, to move them
